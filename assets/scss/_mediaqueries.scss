@@ -1,0 +1,31 @@
+@media (max-width: 990px ) {
+    .img {
+        display: none;
+    }
+    .form {
+        width: 100%;
+
+        img {
+            display: block;
+            position: absolute;
+            top: 30px;
+        }
+
+        form {
+            .group {
+                input {
+                    width: 100%;
+                }
+                .label-group {
+                    @include flex(row, space-between)
+                }
+            }
+            .checkbox {
+                input {
+                    width: 15px;
+                }
+            }
+            
+        }
+    }
+}
